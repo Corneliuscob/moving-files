@@ -22,3 +22,8 @@ ls -l | grep "\.txt$"
 ### variables 
 STR="this is inside a variable!"
 echo $STR    
+
+#  To copy and rename that file from sneakers.txt to piglet.txt, type:
+
+# cp sneakers.txt tigger/piglet.txt
+	    
