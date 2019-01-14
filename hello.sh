@@ -27,3 +27,23 @@ echo $STR
 
 # cp sneakers.txt tigger/piglet.txt
 	    
+
+
+### concatenation
+# foo="Hello"
+# foo="$foo World"
+# echo $foo
+# > Hello World
+
+# In general to concatenate two variables you can just write them one after another:
+
+# a='hello'
+# b='world'
+# c="$a$b"
+# echo $c
+# > helloworld
+
+##3 path building 
+# full_path="$part1/$part2"
+
+# https://www.tldp.org/LDP/abs/html/string-manipulation.html
